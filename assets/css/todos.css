@@ -1,1 +1,10 @@
-l
+#container{
+  border: 2px solid gray;
+  width: 360px;
+  margin: 0 auto;
+}
+
+.task-completed{
+  text-decoration : line-through;
+  color : gray;
+}
