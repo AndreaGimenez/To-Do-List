@@ -18,6 +18,10 @@ $("input[type = 'text']").keypress(function(event){
     //erase the input text
     $(this).val("");
     //append adds an html string
-    $("ul").append("<li><span>X </span>" + text + "</li>");
+    $("ul").append("<li><span><i class = 'fa fa-trash'></i> </span>" + text + "</li>");
   }
-})
+});
+
+$("#add").click(function(){
+  ("input[type='text'").fadeOut();
+});
