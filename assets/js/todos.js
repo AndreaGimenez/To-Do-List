@@ -23,5 +23,5 @@ $("input[type = 'text']").keypress(function(event){
 });
 
 $("#add").click(function(){
-  $("input[type='text']").fadeOut();
+  $("input[type='text']").fadeToggle();
 });
